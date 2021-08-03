@@ -1,24 +1,5 @@
 # vue-shop
 
-## Project setup
-```
-yarn install
-```
+## 项目概述
+- 此项目运用了Vue全家桶以及ElementUI等技术实现
 
-### Compiles and hot-reloads for development
-```
-yarn serve
-```
-
-### Compiles and minifies for production
-```
-yarn build
-```
-
-### Lints and fixes files
-```
-yarn lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
