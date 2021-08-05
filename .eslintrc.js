@@ -1,7 +1,7 @@
 /*
  * @Author: SummerJay__
  * @Date: 2021-08-02 22:12:23
- * @LastEditTime: 2021-08-03 15:25:51
+ * @LastEditTime: 2021-08-05 08:32:36
  * @LastEditors: your name
  * @Description:
  * @FilePath: \vue-shop\.eslintrc.js
@@ -21,6 +21,7 @@ module.exports = {
     quotes: 'off',
     semi: 'off',
     'comma-dangle': 'off',
-    'space-before-function-paren': 0
+    'space-before-function-paren': 0,
+    'no-useless-return': 0
   }
 }
