@@ -1,7 +1,7 @@
 <!--
  * @Author: SummerJay__
  * @Date: 2021-08-02 22:12:23
- * @LastEditTime: 2021-08-03 09:40:07
+ * @LastEditTime: 2021-08-05 16:15:48
  * @LastEditors: your name
  * @Description: dadwad
  * @FilePath: \vue-shop\src\App.vue
@@ -14,9 +14,9 @@
 
 <script>
 export default {
-  name: "app",
-};
+  name: 'app',
+}
 </script>
 
-<style>
+<style lang='less' scoped>
 </style>

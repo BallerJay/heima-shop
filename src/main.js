@@ -1,7 +1,7 @@
 /*
  * @Author: SummerJay__
  * @Date: 2021-08-02 22:12:23
- * @LastEditTime: 2021-08-04 09:51:41
+ * @LastEditTime: 2021-08-06 07:50:57
  * @LastEditors: your name
  * @Description:
  * @FilePath: \vue-shop\src\main.js
@@ -12,6 +12,8 @@ import router from './router'
 import './plugins/element.js'
 import '@/assets/css/global.css'
 import axios from 'axios'
+import ElementUI from 'element-ui'
+import 'element-ui/lib/theme-chalk/index.css'
 // 配置请求的根路径
 axios.defaults.baseURL = 'http://127.0.0.1:8888/api/private/v1'
 axios.interceptors.request.use(
@@ -25,9 +27,11 @@ axios.interceptors.request.use(
     return Promise.reject(error)
   }
 )
-Vue.prototype.$http = axios
 
 Vue.config.productionTip = false
+Vue.use(ElementUI)
+
+Vue.prototype.$http = axios
 
 new Vue({
   router,
