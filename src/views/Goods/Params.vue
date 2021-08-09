@@ -1,7 +1,7 @@
 <!--
  * @Author: SummerJay__
  * @Date: 2021-08-07 10:28:54
- * @LastEditTime: 2021-08-08 16:35:58
+ * @LastEditTime: 2021-08-08 22:06:14
  * @LastEditors: your name
  * @Description: 分类参数功能
  * @FilePath: \vue-shop\src\views\Goods\Params.vue

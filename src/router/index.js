@@ -1,7 +1,7 @@
 /*
  * @Author: SummerJay__
  * @Date: 2021-08-02 22:12:23
- * @LastEditTime: 2021-08-07 10:29:58
+ * @LastEditTime: 2021-08-09 13:48:21
  * @LastEditors: your name
  * @Description:
  * @FilePath: \vue-shop\src\router\index.js
@@ -16,6 +16,8 @@ import Roles from '@/views/Roles'
 import Rights from '@/views/Power'
 import Category from '@/views/Goods/Cate.vue'
 import Params from '@/views/Goods/Params'
+import List from '@/views/Goods/List'
+import Add from '@/views/Goods/Add'
 
 Vue.use(VueRouter)
 
@@ -56,6 +58,14 @@ const routes = [
       {
         path: '/params',
         component: Params
+      },
+      {
+        path: '/goods',
+        component: List
+      },
+      {
+        path: '/goods/add',
+        component: Add
       }
     ]
   }

@@ -22,4 +22,20 @@ html,body,#app{
   margin-top: 15px;
 }
 
+.el-steps {
+  line-height: 25px;
+  margin: 15px 185px;
+}
+
+.el-step__title{
+  font-size: 13px;
+  padding-left: 60px;
+}
+.ql-toolbar{
+  line-height: 20px;
+  text-align: left;
+}
+.ql-editor{
+  min-height: 300px;
+}
 
