@@ -1,7 +1,7 @@
 <!--
  * @Author: SummerJay__
  * @Date: 2021-08-08 22:02:44
- * @LastEditTime: 2021-08-09 13:46:09
+ * @LastEditTime: 2021-08-10 09:12:39
  * @LastEditors: your name
  * @Description: 商品列表的功能
  * @FilePath: \vue-shop\src\views\Goods\List.vue
