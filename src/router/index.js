@@ -1,7 +1,7 @@
 /*
  * @Author: SummerJay__
  * @Date: 2021-08-02 22:12:23
- * @LastEditTime: 2021-08-10 09:10:39
+ * @LastEditTime: 2021-08-10 10:24:30
  * @LastEditors: your name
  * @Description:
  * @FilePath: \vue-shop\src\router\index.js
@@ -19,6 +19,7 @@ import Params from '@/views/Goods/Params'
 import List from '@/views/Goods/List'
 import Add from '@/views/Goods/Add'
 import Orders from '@/views/Order'
+import Reports from '@/views/Report'
 
 Vue.use(VueRouter)
 
@@ -71,6 +72,10 @@ const routes = [
       {
         path: '/orders',
         component: Orders
+      },
+      {
+        path: '/reports',
+        component: Reports
       }
     ]
   }
